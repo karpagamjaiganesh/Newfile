@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [smoke Suite]">
+  <test thread-count="5" name="loginTest(failed)">
+    <classes>
+      <class name="Testcases.loginTest">
+        <methods>
+          <include name="login"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- Testcases.loginTest -->
+    </classes>
+  </test> <!-- loginTest(failed) -->
+  <test thread-count="5" name="verifyTitle(failed)">
+    <classes>
+      <class name="Testcases.verifyTitle">
+        <methods>
+          <include name="titleverify"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- Testcases.verifyTitle -->
+    </classes>
+  </test> <!-- verifyTitle(failed) -->
+  <test thread-count="5" name="homePage(failed)">
+    <classes>
+      <class name="Testcases.homePage">
+        <methods>
+          <include name="homepage"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- Testcases.homePage -->
+    </classes>
+  </test> <!-- homePage(failed) -->
+</suite> <!-- Failed suite [smoke Suite] -->

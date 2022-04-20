@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="36069" started-at="2022-04-01T21:58:00 EDT" finished-at="2022-04-01T21:58:36 EDT">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="36069" started-at="2022-04-01T21:58:00 EDT" finished-at="2022-04-01T21:58:36 EDT">
+      <class name="Testcases.loginTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Testcases.loginTest@33f88ab]" name="setUp" is-config="true" duration-ms="28905" started-at="2022-04-01T21:58:00 EDT" finished-at="2022-04-01T21:58:29 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:Testcases.loginTest@33f88ab]" name="login" duration-ms="6836" started-at="2022-04-01T21:58:29 EDT" data-provider="logindata" finished-at="2022-04-01T21:58:36 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+      </class> <!-- Testcases.loginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
